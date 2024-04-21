@@ -1,16 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdf0d5; /* Паросток папаї */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px; /* Максимальна ширина контейнера */
+  width: 100%;
+  padding: 20px;
+  gap: 200px; /* Відступи між колонками */
+ 
+  align-items: flex-start; /* Прижати ліву колонку до верхнього краю */
+}
+
+.left-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Відступи між елементами у лівій колонці */
+  justify-content: flex-start; /* Прижати до лівого краю */
+}
+
+.smilyface {
+  margin-bottom: 20px;
+}
+
+.smilyface img {
+  width: 200px;
+  height: auto;
+}
+
+.price {
+  text-align: center;
+  color: #c1121f; /* Кармінове сяйво */
+  margin-bottom: 10px;
+}
+
+.price p {
+  margin: 10px 0;
+}
+
+.rating {
+  text-align: center;
+  color: #780000; /* Темно-бордовий */
+}
+
+.rating span {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.rating span:hover,
+.rating span:hover ~ span {
+  color: #669bbc; /* Хіппі-блакитний */
+}
+
+.middle-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Відступи між елементами у середній колонці */
+  justify-content: center; /* Вирівняти по центру */
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Вирівнюємо кнопки по центру */
+  gap: 10px; /* Відступи між кнопками */
+  width: 100%; /* Зробити кнопки однакової ширини */
+  text-align: center; /* Вирівнюємо текст у кнопках по центру */
+}
+
 .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .btn:hover {
-    background-color: #45a049;
-  }
+  padding: 15px 30px; /* Збільшуємо розмір кнопок */
+  background-color: #003049; /* Берлінська лазур */
+  color: #fdf0d5; /* Паросток папаї */
+  text-decoration: none;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  width: 100%; /* Зробити кнопки однакової ширини */
+}
+
+.btn:hover {
+  background-color: #669bbc; /* Хіппі-блакитний */
+}
+
+.right-column {
+  flex: 1; /* Займати увесь доступний простір */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Вирівняти по центру */
+  gap: 20px; /* Відступи між елементами у правій колонці */
+}
+
+/* Загальні стилі для iframe */
+iframe {
+  max-width: 100%; /* Встановлюємо максимальну ширину */
+  border: none; /* Видаляємо рамку */
+}
