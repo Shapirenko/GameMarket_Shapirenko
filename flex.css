@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    background-color: aquamarine;
+    font-size: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    gap: 20px;
+}
+
+
+div{
+    border: 8px solid royalblue;
+    border-radius: 6px;
+    background-color: burlywood;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
