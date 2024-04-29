@@ -13,6 +13,7 @@ body {
     color: #d0c4cc;
     border-radius: 5px;
     align-content: center;
+    padding: 10px;
 }
 
 .row {
@@ -31,6 +32,7 @@ body {
 
 .btn01 {
     border: 1px solid darkgray;
+    border-radius: 5px;
 }
 
 .btn02 {
