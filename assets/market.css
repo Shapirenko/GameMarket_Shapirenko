@@ -1,0 +1,39 @@
+body {
+    background-color: #d0c4cc;
+}
+
+.section {
+    width: 420px;
+    
+}
+
+.title {
+    background: #cc3c24;
+    text-transform: uppercase;
+    color: #d0c4cc;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    height: 420px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin: 10px;
+    width: 45%;
+}
+
+.btn01 {
+    border: 1px solid darkgray;
+}
+
+.btn02 {
+    background: #cc3c24;
+    color: #d0c4cc;
+}
