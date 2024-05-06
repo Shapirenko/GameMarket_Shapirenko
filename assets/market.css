@@ -42,7 +42,7 @@ body {
 .item img{
     justify-self: center;
     height: 150px;
-    padding: 10px;
+    padding-left: 35px;
 }
 .item div:first-child{
     padding: 10px;
@@ -88,7 +88,7 @@ body {
 .btn02 {
     background: #cc3c24;
     color: #d0c4cc;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
 }
@@ -105,3 +105,21 @@ body {
     font-size: 14px;
 }
 
+.contacts p {
+    margin: 3px;
+}
+
+.contacts p:first-child {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.contacts p:last-child {
+    border-left: 3px solid rgb(253, 48, 48);
+}
+
+.info {
+    font-size: 9px;
+    text-align: justify;
+    color: rgb(120, 120, 120);
+}
