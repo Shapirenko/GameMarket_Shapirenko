@@ -26,9 +26,12 @@ let itemsDiv = document.getElementById("items")
 if (itemsDiv) {
 
     //Виведення елементів масиву
-    itemsArray.forEach((item) => {
+    itemsArray.forEach((item, index) => {
         // console.log(item)
-        itemsDiv.innerHTML += '<div  class = "row"><div class="item"></div><div class="item"></div></div>'
+        itemsDiv.innerHTML += `<div class="item">
+        <h2>${index}</h2>
+        <p>${item}</p>
+        </div>`
     })
     //Вивід знайденого елементу
     // console.log(itemsDiv)

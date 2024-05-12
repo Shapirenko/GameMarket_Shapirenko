@@ -19,26 +19,22 @@ body {
     padding: 10px;
 }
 
-.items{
-    flex-wrap: wrap;
-    
-    
-}
-
-.row {
+.items {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .item {
-    height: 420px;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0px 8px 32px 0 rgba(0, 0, 0, 0.37);
+    width: 40%;
+    min-height: 400px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 5px;
     margin: 10px;
-    width: 45%;
-    background-color: rgba(255, 255, 255, 0.63);
 }
+
 .item img{
     justify-self: center;
     height: 150px;
