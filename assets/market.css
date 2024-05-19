@@ -13,10 +13,11 @@ body {
 .title {
     background: #cc3c24;
     text-transform: uppercase;
-    color: #d0c4cc;
+    color: #ffffff;
     border-radius: 5px;
-    align-content: center;
+    text-align: center;
     padding: 10px;
+    font-size: large;
 }
 
 .items {
@@ -84,7 +85,8 @@ body {
 .btn02 {
     background: #cc3c24;
     color: #d0c4cc;
-    border-radius: 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
     display: flex;
     align-items: center;
 }
