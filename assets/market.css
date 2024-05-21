@@ -39,7 +39,7 @@ body {
 .item img{
     justify-self: center;
     height: 150px;
-    padding-left: 35px;
+    padding-left: 10px;
 }
 .item div:first-child{
     padding: 10px;

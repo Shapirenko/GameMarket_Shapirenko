@@ -125,8 +125,7 @@ let itemsArray = [
     },
     {
         title:"Електричний тример 110",
-        image:"Img/Електричний тример.png",
-        image:"",
+        image:"https://content2.rozetka.com.ua/goods/images/big/261583913.jpg",
         mono:"5",
         pb:"7",
         price_standart:"4497",
@@ -136,7 +135,7 @@ let itemsArray = [
     },
     {
         title:"Електрична газонокосарка 32",
-        image:"Img/Електрична газонокосарка.png",
+        image:"https://images.prom.ua/3772468812_w640_h640_gazonokosilka-elektricheskaya-dnipro-m.jpg",
         mono:"8",
         pb:"10",
         price_standart:"4497",
@@ -146,7 +145,7 @@ let itemsArray = [
     },
     {
         title:"Акумуляторни оприскувач 12 N",
-        image:"",
+        image:"https://hotline.ua/img/tx/449/4492289865.jpg",
         mono:"9",
         pb:"6",
         price_standart:"2190",
@@ -194,7 +193,7 @@ if (itemsDiv) {
             <div><span>${item.price_discount} </span><sup>грн</sup></div>
         </div>
         <div class="btn02">
-            <div></div>
+            <div>Ціна з купоном</div>
             <div><span>${item.price_coupon} </span><sup>грн</sup></div>
         </div>
     </div>
