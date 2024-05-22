@@ -113,46 +113,198 @@ let itemsArray = [
     //     photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/hetmanska-mariya-oleksandrivna-683x1024.jpg",
     //     url: "https://lyceum.ztu.edu.ua/team/hetmanska-m-o/",
     // },
+    // 
     {
-        title:"Мотокоса 43",
-        image:"Img/Мотокоса.png",
-        mono:"6",
-        pb:"8",
-        price_standart:"5499",
-        price_discount:"4497",
-        price_coupon:"4395",
-
+        email: "23b_lam@liceum.ztu.edu.ua",
+        group: "10-Б 2",
+        fullName: "Лещенко Настя",
+        gameTitle: "dude настюшкі",
+        authorPhoto: "Лещенко.jpg",
+        gamePhoto: "",
+        githubRepo: "https://github.com/Leschenko1001/Phaser2ndGame1?authuser=0",
+        githubPages: "https://leschenko1001.github.io/Phaser2ndGame1/?authuser=0",
+        documentationFolder: "https://drive.google.com/drive/folders/1CqBXUS5Rk1u8nhEq3_l7LYMjDalYqPgW?usp=classroom_web&authuser=0",
+        surveyForm: "https://forms.gle/aLmXJ7nEnjo6PGuZ8?authuser=0",
+        gameMarketRepo: "https://github.com/Leschenko1001/GameMarket_Leschenko",
+        gameMarketPages: "https://leschenko1001.github.io/GameMarket_Leschenko/?authuser=0",
+        finalGameMarketPage: "https://leschenko1001.github.io/GameMarket_Leschenko/market.html?authuser=0"
     },
-    {
-        title:"Електричний тример 110",
-        image:"https://content2.rozetka.com.ua/goods/images/big/261583913.jpg",
-        mono:"5",
-        pb:"7",
-        price_standart:"4497",
-        price_discount:"3498",
-        price_coupon:"3396",
-
-    },
-    {
-        title:"Електрична газонокосарка 32",
-        image:"https://images.prom.ua/3772468812_w640_h640_gazonokosilka-elektricheskaya-dnipro-m.jpg",
-        mono:"8",
-        pb:"10",
-        price_standart:"4497",
-        price_discount:"3297",
-        price_coupon:"3195",
-
-    },
-    {
-        title:"Акумуляторни оприскувач 12 N",
-        image:"https://hotline.ua/img/tx/449/4492289865.jpg",
-        mono:"9",
-        pb:"6",
-        price_standart:"2190",
-        price_discount:"1698",
-        price_coupon:"1596",
-
-    },
+    // {
+    //     email: "23b_lsa@liceum.ztu.edu.ua",
+    //     group: "10-Б 2",
+    //     fullName: "Лобода Софія",
+    //     gameTitle: "MOKOSH",
+    //     authorPhoto: "Лобода.jpg",
+    //     gamePhoto: "",
+    //     githubRepo: "https://github.com/Lobodass/project.git",
+    //     githubPages: "https://lobodass.github.io/project/",
+    //     documentationFolder: "https://drive.google.com/drive/folders/1-0efrhem62Vc__8Ir6qIFuatZJ_FjV50?usp=classroom_web&authuser=0",
+    //     surveyForm: "https://forms.gle/5DBw7bJ5v33uCqbt5",
+    //     gameMarketRepo: "https://github.com/Lobodass/siteinf.git",
+    //     gameMarketPages: "https://lobodass.github.io/siteinf/",
+    //     finalGameMarketPage: "https://lobodass.github.io/siteinf/marcet.html?authuser=0"
+    // },
+    // {
+    //     email: "23b_nar@liceum.ztu.edu.ua",
+    //     group: "10-Б 2",
+    //     fullName: "Найбородін Артем",
+    //     gameTitle: "BestGame",
+    //     authorPhoto: "Лещенко.jpg",
+    //     gamePhoto: "",
+    //     githubRepo: "https://github.com/Nayborodin/MyGame",
+    //     githubPages: "https://nayborodin.github.io/MyGame/",
+    //     documentationFolder: "https://drive.google.com/drive/folders/1G102lDz-nuYjqtOjxfLFwW2zB1R3BCgE",
+    //     surveyForm: "https://forms.gle/vitg4Rk5EUm3MZe38",
+    //     gameMarketRepo: "https://github.com/Nayborodin/GameMarket_Nayborodin",
+    //     gameMarketPages: "https://nayborodin.github.io/GameMarket_Nayborodin/",
+    //     finalGameMarketPage: "https://nayborodin.github.io/GameMarket_Nayborodin/market.html"
+    // },
+    // {
+    //     email: "23b_nod@liceum.ztu.edu.ua",
+    //     group: "10-Б 2",
+    //     fullName: "Нікітіч Олександр",
+    //     gameTitle: "Лещенко.jpg",
+    //     authorPhoto: "",
+    //     gamePhoto: "",
+    //     githubRepo: "https://github.com/SashaNikitich/Phaser2ndGame-2",
+    //     githubPages: "https://sashanikitich.github.io/Phaser2ndGame-2/",
+    //     documentationFolder: "https://docs.google.com/forms/d/e/1FAIpQLSdfx9mrL6L9s8P2Ratdn_TG0xqCTmyDBL3GfhUYM_27OnUmFA/viewform?usp=sharing, https://docs.google.com/document/d/14x-Cgw9X0pmnKD30qmBAKMQsE__y0-XQ/edit?usp=sharing&ouid=111241578456250236357&rtpof=true&sd=true",
+    //     surveyForm: "https://forms.gle/k4FbZfE31MSNpNoe6?authuser=0",
+    //     gameMarketRepo: "https://github.com/SashaNikitich/Phaser2ndGame-2",
+    //     gameMarketPages: "https://sashanikitich.github.io/Phaser2ndGame-2/"
+    // },
+    // {
+    //     email: "23b_pos@liceum.ztu.edu.ua",
+    //     group: "10-Б 2",
+    //     fullName: "Продоус Олександр",
+    //     gameTitle: "SuperGame",
+    //     authorPhoto: "Лещенко.jpg",
+    //     gamePhoto: "",
+    //     githubRepo: "https://github.com/Oleksandrpr321/-Phaser2ndGame.git",
+    //     githubPages: "https://oleksandrpr321.github.io/-Phaser2ndGame/",
+    //     documentationFolder: "https://drive.google.com/drive/folders/15dRiiBT-A6CAsZa0mXBR7k9_2edGz6bP?usp=drive_link",
+    //     surveyForm: "https://forms.gle/Y3SEVntm9Tr7znXu9",
+    //     gameMarketRepo: "https://github.com/Oleksandrpr321/-GameMarket_Prodous.git",
+    //     gameMarketPages: "https://oleksandrpr321.github.io/-GameMarket_Prodous/",
+    //     finalGameMarketPage: "https://oleksandrpr321.github.io/-GameMarket_Prodous/market.html"
+    // },
+    // {
+    //     email: "23b_pds@liceum.ztu.edu.ua",
+    //     group: "10-Б 2",
+    //     fullName: "Прокопчук Денис",
+    //     gameTitle: "Апокаліпсіс",
+    //     authorPhoto: "Лещенко.jpg",
+    //     gamePhoto: "",
+    //     githubRepo: "https://github.com/Denis16543/Phaser2ndGame",
+    //     githubPages: "https://denis16543.github.io/Phaser2ndGame/",
+    //     documentationFolder: "https://drive.google.com/drive/folders/1KKIoePi4fkPjpWY4mAYEOL99wByIXX_t?usp=drive_link",
+    //     surveyForm: "https://forms.gle/yn4n8Gsu67vAtx8S9",
+    //     gameMarketRepo: "https://github.com/Denis16543/GameMarket",
+    //     gameMarketPages: "https://denis16543.github.io/GameMarket/"
+    // },
+    // {
+    //     email: "23b_syei@liceum.ztu.edu.ua",
+    //     group: "10-Б 2",
+    //     fullName: "Савицкьий Єгор",
+    //     gameTitle: "Falcon",
+    //     authorPhoto: "Лещенко.jpg",
+    //     gamePhoto: "",
+    //     githubRepo: "https://github.com/HellcatFalcon/game.git",
+    //     githubPages: "https://github.com/HellcatFalcon/Faclon/settings/pages",
+    //     documentationFolder: "https://drive.google.com/drive/folders/1yCCzefMmd5BGGz9UBrljEXQWQThK9ImN?usp=drive_link",
+    //     surveyForm: "https://forms.gle/jAf9YW87aQqeoj4v6",
+    //     gameMarketRepo: "https://github.com/HellcatFalcon/GameMarket_Savitskiy.git",
+    //     gameMarketPages: "https://hellcatfalcon.github.io/GameMarket_Savitskiy/",
+    //     finalGameMarketPage: "http://127.0.0.1:5500/market.html"
+    // },
+    // {
+    //     email: "23b_stv@liceum.ztu.edu.ua",
+    //     group: "10-Б 2",
+    //     fullName: "Саух Тимофій",
+    //     gameTitle: "якісь колодязі",
+    //     authorPhoto: "Лещенко.jpg",
+    //     gamePhoto: "",
+    //     githubRepo: "https://github.com/imnottimaw/Phaser2ndGame",
+    //     githubPages: "https://imnottimaw.github.io/Phaser2ndGame/",
+    //     documentationFolder: "https://drive.google.com/drive/folders/1YvPNGVqCD6BBzWr4azgHLxwar91rtT6H?usp=sharing",
+    //     surveyForm: "https://forms.gle/a58ghZiZdVJfZVLg6",
+    //     gameMarketRepo: "https://github.com/imnottimaw/GameMarket_Saukh",
+    //     gameMarketPages: "https://imnottimaw.github.io/GameMarket_Saukh/",
+    //     finalGameMarketPage: "https://imnottimaw.github.io/GameMarket_Saukh/final/final.html"
+    // },
+    // {
+    //     email: "23b_som@liceum.ztu.edu.ua",
+    //     group: "10-Б 2",
+    //     fullName: "Скримінська Оксана",
+    //     gameTitle: "",
+    //     authorPhoto: "Лещенко.jpg",
+    //     gamePhoto: "",
+    //     githubRepo: "https://github.com/skryminska/Phaser2ndGame",
+    //     githubPages: "https://skryminska.github.io/Phaser2ndGame/",
+    //     documentationFolder: "https://docs.google.com/document/d/19B0k9awxwUCrPf3vL68ekIFYvMzU3q-tIg8Q3hMjbHQ/edit?usp=classroom_web&authuser=0, https://drive.google.com/drive/folders/12oLl0iIBZfpF77V-npksuc8hWW8cyCnd?usp=classroom_web&authuser=0",
+    //     surveyForm: "",
+    //     gameMarketRepo: "https://github.com/skryminska/GameMarket_Skryminska",
+    //     gameMarketPages: "https://skryminska.github.io/GameMarket_Skryminska/"
+    // },
+    // {
+    //     email: "23b_sns@liceum.ztu.edu.ua",
+    //     group: "10-Б 2",
+    //     fullName: "Смолянова Ніка",
+    //     gameTitle: "Exiting way",
+    //     authorPhoto: "Лещенко.jpg",
+    //     gamePhoto: "",
+    //     githubRepo: "https://github.com/Nikasms/-Phaser2ndGame.git",
+    //     githubPages: "https://nikasms.github.io/-Phaser2ndGame/",
+    //     documentationFolder: "https://drive.google.com/drive/folders/1oNBngdHeURy6zi-iwPPfUc8XsuIx5Ekk",
+    //     surveyForm: "https://forms.gle/MU9K5RhTwm4SJAXeA",
+    //     gameMarketRepo: "https://github.com/Nikasms/GameMarket_Smolianova.git",
+    //     gameMarketPages: "https://nikasms.github.io/GameMarket_Smolianova/",
+    //     finalGameMarketPage: "https://nikasms.github.io/GameMarket_Smolianova/market.html"
+    // },
+    // {
+    //     email: "23b_tdp@liceum.ztu.edu.ua",
+    //     group: "10-Б 2",
+    //     fullName: "Терський Дмитро",
+    //     gameTitle: "Лещенко.jpg",
+    //     authorPhoto: "",
+    //     gamePhoto: "",
+    //     githubRepo: "https://github.com/dmitro321w/GameMarket_-/tree/main",
+    //     githubPages: "https://github.com/dmitro321w/GameMarket_-/tree/main",
+    //     documentationFolder: "https://drive.google.com/drive/folders/1izA5dAz4VlfRCffwQCXKGeLpKX3qpDGA?usp=drive_link",
+    //     surveyForm: "1",
+    //     gameMarketRepo: "https://github.com/dmitro321w/GameMarket_-/tree/main",
+    //     gameMarketPages: "https://dmitro321w.github.io/GameMarket_-/"
+    // },
+    // {
+    //     email: "23b_shmv@liceum.ztu.edu.ua",
+    //     group: "10-Б 2",
+    //     fullName: "Шапіренко Максим",
+    //     gameTitle: "Roborun",
+    //     authorPhoto: "Лещенко.jpg",
+    //     gamePhoto: "",
+    //     githubRepo: "https://github.com/Shapirenko/Roborun",
+    //     githubPages: "https://shapirenko.github.io/Roborun/",
+    //     documentationFolder: "https://drive.google.com/drive/folders/1j-uM3IKdJUH3IbqpNKxAvkDJvP_XrunA?usp=classroom_web&authuser=0",
+    //     surveyForm: "https://forms.gle/Ty19Ttoo6CWEGdp78?authuser=0",
+    //     gameMarketRepo: "https://github.com/Shapirenko/GameMarket_Shapirenko?authuser=0",
+    //     gameMarketPages: "https://shapirenko.github.io/GameMarket_Shapirenko/?authuser=0",
+    //     finalGameMarketPage: "https://shapirenko.github.io/GameMarket_Shapirenko/market.html?hl=ru&authuser=0"
+    // },
+    // {
+    //     email: "23b_svyu@liceum.ztu.edu.ua",
+    //     group: "10-Б 2",
+    //     fullName: "Соколовська Вікторія",
+    //     gameTitle: "Космічне сміття",
+    //     authorPhoto: "Лещенко.jpg",
+    //     gamePhoto: "",
+    //     githubRepo: "https://github.com/VikaSokol/Space-Trash-",
+    //     githubPages: "https://vikasokol.github.io/Space-Trash-/",
+    //     documentationFolder: "https://drive.google.com/drive/folders/10W9NbLTXlXtVCFWZfdoyVVfpVku7qJwA?usp=drive_link",
+    //     surveyForm: "https://drive.google.com/drive/folders/10W9NbLTXlXtVCFWZfdoyVVfpVku7qJwA?usp=drive_link",
+    //     gameMarketRepo: "https://github.com/VikaSokol/GameMarket_Sokolovska",
+    //     gameMarketPages: "https://vikasokol.github.io/Space-Trash-/",
+    //     finalGameMarketPage: "https://vikasokol.github.io/market/market.html?authuser=0"
+    // }
 ]
 
 //Отримання елементу з ідентифікатором items
@@ -182,8 +334,12 @@ if (itemsDiv) {
 
             `
     <div class="item">
-        <div class="">${item.title}</div>
-        <img src="${item.image}" alt="Електрична газонокосарка 32">
+        <div class="">${item.gameTitle}</div>
+        <div>
+        <div>${item.fullName}</div>
+        <div>${item.group}</div>
+        </div> 
+        <img src="${item.gamePhoto}" alt="Електрична газонокосарка 32">
         <div class="parts-pay">
             <div><img src="Img/lapka.png" alt="">${item.mono}</div>
             <div><img src="Img/pb.png" alt="">${item.pb}</div>
@@ -200,7 +356,7 @@ if (itemsDiv) {
 
 
         `
-        
+
     })
     // Вивід знайденого елементу
     // console.log(itemsDiv)
